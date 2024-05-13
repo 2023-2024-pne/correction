@@ -1,0 +1,1 @@
+/home/sarroutb/RedHat/TASKS/OWN/own/scripts/identicals/identify_identicals.sh
