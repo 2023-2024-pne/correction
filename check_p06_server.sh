@@ -1,3 +1,4 @@
+#!/bin/bash
 curl 2>/dev/null http://localhost:8080/
 curl 2>/dev/null "http://localhost:8080/ping?" | grep -i ok || echo "ERROR[ping]"
 curl 2>/dev/null "http://localhost:8080/get?n=2" | grep -i -e "[A,C,T,G]" || echo "ERROR[get(seq)]"
